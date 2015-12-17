@@ -66,5 +66,4 @@ public class ConditionalIgnoreRule implements MethodRule {
       Assume.assumeTrue( "Ignored by " + condition.getClass().getSimpleName(), false );
     }
   }
-
 }
